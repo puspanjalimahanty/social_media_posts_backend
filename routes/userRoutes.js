@@ -36,3 +36,5 @@ router.post("/login", async (req, res) => {
 });
 
 // Forgot password (reset)
+
+export default router;
