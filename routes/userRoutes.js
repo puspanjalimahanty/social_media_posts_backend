@@ -9,6 +9,11 @@ import sendEmail from "../utils/sendEmail.js";
 
 const router = express.Router();
 
+router.get("/", (req, res) => {
+  res.send("✅ User route base path is working!");
+});
+
+
 // Register
 router.post("/register", async (req, res) => {
   const { username, email, password } = req.body;
