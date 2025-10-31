@@ -8,7 +8,7 @@
   ],
   "includeFiles": [
     "routes/**/*.js",
-    "models/**/*.js",
-    "utils/**/*.js"
+    "models/**/*.js"
+    
   ]
 }
