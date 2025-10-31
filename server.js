@@ -22,4 +22,9 @@ mongoose
 app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes);
 
+app.get("/", (req, res) => {
+  res.send("✅ Backend is live and running!");
+});
+
+
 export default app;
